@@ -1,0 +1,34 @@
+Copyright (c) 2020 CenturyLink Communications, LLC.
+
+
+JSMiiN is a DNS Nameserver written in JavaScript (node.js) which
+allows it to be easily extended to support experimental DNS RR's
+and protocol extensions.
+
+Without the support of these libraries and individuals this
+project [JSMiiN] would not be possible.
+
+
+
+Support Frameworks and Libraries -
+
+    NodeJS - https://nodejs.org/en/ [MIT License]
+
+
+
+Core Software Architecture
+
+               \|/     |  /--\  |\ /|        |\  |
+              --O--    |  |     | | |  o  o  | | |
+        \|/    /|\     |  |     | | |        | | |
+       --O--  /        |  \--\  | | |  |  |  | | |
+        /|\  /         |     |  | | |  |  |  | | |
+           \/          |     |  |   |  |  |  | | |
+           /\       ---/  ---/  |   |  |  |  |  \|
+
+
+  Concept and Design -
+
+    John Woodworth <john.woodworth@lumen.com>
+    Dean Ballew <dean.ballew@lumen.com>
+
